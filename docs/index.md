@@ -1,3 +1,3 @@
-# How Do I...
+# How Do I
 
-How do I do things.
+Collection of cheatsheets for software I use.

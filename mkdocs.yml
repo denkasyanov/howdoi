@@ -1,3 +1,21 @@
-site_name: howdoi
+site_name: How Do I
 theme:
   name: material
+  palette:
+    primary: white
+    accent: red
+  features:
+    - navigation.instant  # SPA behavior
+
+markdown_extensions:
+  - pymdownx.highlight  # syntax highlighting
+  - pymdownx.superfences  # nesting of code blocks inside other blocks
+  - pymdownx.inlinehilite  # inline syntax highlighting, e.g. `#!python range()`
+  - pymdownx.keys  # keyboard hightlighting, e.g. ++ctrl+a++
+  - pymdownx.emoji:  # emoji and icons rendering
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Tmux: tmux.md

@@ -19,3 +19,5 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Tmux: tmux.md
+  - Pyenv: pyenv.md
+  - MkDocs: mkdocs.md
